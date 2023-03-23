@@ -1,0 +1,8 @@
+#!/bin/bash
+yum update -y
+yum install nginx -y
+service nginx start
+cd /usr/share/nginx/html
+echo "<html><h1>Hello Team Cydar</h1></html>"  >  index.html
+---------------------------------------------------------------------
+http://35.161.160.209/  >>URL to acess the webserver
